@@ -1,0 +1,351 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header{
+    background-color: #2E948A;
+    color: #ffffff;
+    height: 117px; 
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    gap: 37%;
+    
+}
+
+.logo img{
+    padding-top: 20px;
+    margin-left: 5px;
+     
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.listas ul li{
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Intro */
+
+#intro{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+
+    margin-left: 15%;
+}
+
+#tit-intro{
+    align-items: center;
+    margin-top: 5%;
+
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+
+    color: #FF4081;
+}
+
+#parag-intro{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+    margin-top: 7.5%;
+    margin-right: 7.5%;
+
+    color: #000000;
+}
+
+#img-intro{
+    margin-top: 5%;
+    margin-right: 15%;
+}
+
+/* Container */
+
+#container{ 
+    background: #F7F7F7;
+}
+
+#aula{
+    display: flex;
+    align-items: center;
+
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.video{
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.tit-aula{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+
+    margin-top: -50px;
+    margin-left: 0px;
+    margin-right: 25px;
+    margin-bottom: 26px;
+
+    color: #FF4081;
+}
+
+.p-aula{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+    margin-left: -100px;
+
+    color: #000000;
+}
+
+hr{
+    margin-top: 5%;
+    width: 90%;
+
+    border: 3px, #C4C4C4;
+    background: #F7F7F7;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    background-color: #2E948A;
+    height: 207px;
+    justify-content: space-evenly;
+    max-width: 100%;
+
+
+}
+footer ul{
+list-style: none;
+width: 71px;
+height: 83px;
+margin-top: 53px;
+}
+footer .lista ul li{
+    line-height: 22.98px;
+    font-size: 20px;
+    padding-top: 10px;
+
+
+}
+
+footer button{
+    border-radius: 62px;
+    color: #ffffff;
+    background-color: #2E948A; 
+    border: solid #ffffff;
+    width: 289px;
+    height: 51px;
+    font-weight: 400;
+    cursor: pointer;
+    align-items: center;
+    font-size: 20px;
+    font-style: regular;
+}
+
+.paozinho button{
+    display: flex;    
+}
+
+div .superior{
+    margin-top: 50px;
+    padding-left: 25%;
+}
+
+div .baixo{
+    margin-top: 13px;
+    padding-left: 21%;
+}
+
+.rodape{
+     margin-top: 53px;
+}
+
+@media (max-width: 480px) {
+
+    /* Header */
+
+    header{
+        flex-wrap: wrap;
+        gap: 0;
+        height: 175px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .logo img{
+        padding-top: 5px;
+        margin: 0;
+    }
+
+    /* Intro */
+
+    #intro{
+        flex-direction: column-reverse;
+    }
+
+    #img-intro{
+        margin-left: 50%;
+        margin-right: 100.5%;
+        width: 50%;
+    }
+
+    img{
+        width: 250px;
+    }
+
+    #tit-intro{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 39px;
+
+        color: #FF4081;
+    }
+
+    #parag-intro{
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+
+        color: #000000;
+    }
+
+    /* Container */
+
+    #aula{
+        flex-direction: column;
+        background: #F7F7F7;
+    }
+    iframe{
+        width: 300px;
+        height: 200px;
+
+        margin-left: 1%;
+        margin-right: 15%;
+    }
+
+    .tit-aula{
+        font-size: 30px;
+        line-height: 25px;
+
+        margin-top: 15%;
+        margin-bottom: 7.5%;
+    }
+
+    .p-aula{
+        margin-right: 50%;
+    }
+
+    /* Footer */
+
+    footer{
+        flex-wrap: wrap;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .lista{
+         height: 40px;
+         padding: 0;
+         width: 312px;
+    }
+
+    .lista ul{
+       display: flex;
+       padding: 0;
+       margin: 0;
+       gap: 90%;
+
+    }
+
+    .rodape{
+        margin-top: 10px;
+
+    }
+
+    div .superior{
+        margin: 0;
+        width: 160px;
+        font-size: 14px;
+        margin-right: 15px;
+        padding-left: 9%;
+
+    }
+
+    div .baixo{
+        margin: 0;
+        width: 160px;
+        font-size: 14px;
+        padding-left: 5%;
+    }
+    
+    .paozinho{
+        display: flex;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px){
+
+    header{
+        flex-wrap: wrap;
+        gap: 0;
+        height: 175px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .logo img{
+        padding-top: 5px;
+        margin: 0;
+    }
+    
+   #intro{
+    margin-left: 10%;
+   }
+
+   #aula{
+    flex-direction: column;
+   }
+
+   iframe{
+    width: 500px;
+    align-self: center;
+   }
+
+   .tit-aula{
+    margin-top: 5%;
+   }
+
+   .p-aula{
+    padding-bottom: 60px;
+   }
+}
