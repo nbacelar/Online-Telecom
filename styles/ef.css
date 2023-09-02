@@ -387,7 +387,7 @@ div .baixo {
 }
 
 .rodape img {
-     /* padding-top: 3rem;  */
+     padding-top: 3rem;  
     /* margin-right: 660px; */
     margin-left: 5px;
     max-width: 12rem;
@@ -472,7 +472,7 @@ div .baixo {
     }
     .rodape img {
      
-       
+       padding-top: 0rem; 
         max-width: 7rem;
         max-height: 2rem;
     
