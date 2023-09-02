@@ -1,0 +1,46 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+} 
+
+/* HEADER */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 117px;
+
+    box-shadow: 0px 3px 7px rgba(0, 3, 7, 0.25);
+    background-color: #2E948A;
+}
+
+#header-menu{
+    display: flex;
+    gap: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+a{
+    color: #ffffff;
+}
+
+/* BANNER */
+#banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 100px 0px;
+}
+
+/* BLOG */
+ 
