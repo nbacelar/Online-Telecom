@@ -105,7 +105,9 @@ a {
     width: 288px;
     height: 270px;
     margin-top: 109px;
+    border-radius: 18px;
 }
+
 
 .invi h1 {
     margin-top: 45px;
@@ -117,10 +119,12 @@ a {
 }
 
 .poupa img {
-    width: 238px;
+    width: 288px;
     height: 270px;
     margin-top: 109px;
+    border-radius: 18px;
 }
+
 
 .poupa h1 {
     margin-top: 45px;
@@ -132,10 +136,12 @@ a {
 }
 
 .indf img {
-    max-width: 187px;
-    max-height: 270px;
-    margin-top: 129px;
+  width: 288px;
+    height: 270px;
+    margin-top: 109px;
+    border-radius: 18px;
 }
+
 
 .indf h1 {
     margin-top: 45px;
