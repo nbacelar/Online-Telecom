@@ -449,12 +449,14 @@ div .baixo {
         width: 200px;
         height: 40px;
         font-size: 17px;
+        margin-left: 2rem
     }
 
     .indf button {
         width: 200px;
         height: 40px;
         font-size: 17px;
+        margin-left: 2rem
     }
 
     .spacex button {
