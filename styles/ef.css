@@ -436,13 +436,16 @@ div .baixo {
     .invi p{
         margin-left: 2rem;
     }
-      .container2 p{
+    .container2 p{
         margin-left: 2rem;
     }
 
 
     .plano50{
         margin-left: 2rem;
+    }
+    .container2 h1 {
+    margin-left: 2rem;
     }
 
     .poupa button {
