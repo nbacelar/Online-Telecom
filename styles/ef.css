@@ -17,8 +17,8 @@ header {
 }
 
 .logo img {
-/*     padding-top: 20px; */
-    margin-right: 660px; 
+    padding-top: 20px;
+/*     margin-right: 660px;  */
     margin-left: 5px;
     max-width: 20rem;
     max-height: 10rem;
