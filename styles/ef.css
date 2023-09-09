@@ -408,6 +408,9 @@ div .baixo {
         max-width: 250px;
         max-height: 260px;
     }
+    .listas ul li {
+        margin-left: 28px
+    }
 
     .container .titulo h1 {
         font-size: 45px;
